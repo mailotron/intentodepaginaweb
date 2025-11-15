@@ -1,0 +1,16 @@
+body {
+    background: #f8f9fa;
+}
+.logo-nav {
+    width: 50px;
+    height: auto;
+}
+
+.titulo-centro {
+    pointer-events: none; /* hace que no interfiera con el menú */
+}
+
+#horarios thead th {
+    background-color: #000 !important;
+    color: #fff !important;
+}
