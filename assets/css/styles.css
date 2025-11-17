@@ -37,3 +37,22 @@ body {
     background-color: #000 !important;
     color: #fff !important;
 }
+/* carrusel */
+.carousel-item img {
+    border-radius: 15px;
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+#carouselDojo .carousel-item img {
+    height: 400px !important;
+    object-fit: cover !important;
+    border-radius: 15px;
+}
+/* Altura más baja para CELULARES */
+@media (max-width: 576px) {
+    #carouselDojo .carousel-item img {
+        height: 200px !important;
+    }
+}
