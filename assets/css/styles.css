@@ -1,13 +1,36 @@
 body {
     background: #f8f9fa;
 }
+
+/* whatsapp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.whatsapp-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+/* termina whatsapp */
+
 .logo-nav {
-    width: 50px;
+    width: 75px;
     height: auto;
 }
 
 .titulo-centro {
-    pointer-events: none; /* hace que no interfiera con el menú */
+    pointer-events: none;
 }
 
 #horarios thead th {
